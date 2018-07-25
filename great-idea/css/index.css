@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 	background: lightskyblue;
 }
 
-.navbar nav a {
+.navbtn {
 	text-decoration: none;
 	/* color: rgb(168, 168, 168); */
 	color: white;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5 {
 	transition: .6s;
 }
 
-.navbar nav a:hover {
+.navbtn:hover {
 	box-shadow: inset 0 -5px 5px rgba(31, 31, 31, 0.329);
 	transition: 0s;
 	color: rgb(195, 255, 193);
