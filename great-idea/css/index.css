@@ -68,13 +68,13 @@ h1, h2, h3, h4, h5 {
 .main {
 	margin-right: 75px;
 	margin-left: 75px;
-	width: 876px;
+	width: 880px;
 }
 
 .navbar nav{
 	position: fixed;
 	display: flex;
-	width: 876px;
+	width: 880px;
 	background: lightskyblue;
 }
 
@@ -133,14 +133,12 @@ header {
 .get-started {
 	display: flex;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	width: 173px;
 	height: 33px;
 	color: black;
 	text-decoration: none;
 	border: solid black 1px;
-	text-align: center;
-	padding: 7px;
 	transition: .1s;
 }
 
@@ -180,13 +178,95 @@ article {
 	margin-bottom: 50px;
 }
 
-address {
+footer {
 	margin-top: 40px;
+	margin-bottom: 110px;
 }
 
 .copyright {
 	text-align: center;
 	margin-top: 60px;
 	font-size: 14px;
-	margin-bottom: 110px;
+}
+
+/* Services-specific CSS*/
+
+.line-spacing p {
+	line-height: 1.2;
+}
+
+.services-header-img {
+	margin-top: 85px;
+	margin-bottom: 34px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.hr-top {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 420px;
+	height: 252px;
+	background: #F4F3F4;
+	border: 1px solid black;
+	padding-top: 18px;
+	padding-right: 30px;
+	padding-bottom: 18px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+}
+
+.service-box h3 {
+	margin: 0;
+}
+
+.service-box a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 131px;
+	height: 35px;
+	color: black;
+	background: white;
+	text-decoration: none;
+	font-size: 12px;
+	border: solid black 1px;
+	border-radius: 5px;
+	transition: .1s;
+}
+
+.service-facts {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.service-facts div {
+	width: 400px;
+}
+
+ul {
+	list-style: square inside;
+	padding-top: 24px;
+	line-height: 2;
+}
+
+.services-info-img {
+	align-self: center;
+	margin-bottom: 34px;
 }
