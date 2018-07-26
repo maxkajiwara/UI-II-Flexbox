@@ -330,4 +330,9 @@ ul {
 	.service-facts {
 		justify-content: center;
 	}
+	.third {
+		width: 423px;
+		margin-top: 35px;
+		margin-bottom: 40px;
+	}
 }
