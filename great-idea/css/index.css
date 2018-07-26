@@ -307,28 +307,16 @@ ul {
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
-	header {
-		justify-content: center;
-	}
-	article {
+	header, article, .container, .service-facts {
 		justify-content: center;
 	}
 	.title-box {
 		width: 100%;
 		padding: 0;
 	}
-	.services-info-img {
-		align-self: stretch;
-	}
-	.container {
-		justify-content: center;
-	}
 	.service-facts div {
 		width: 100%;
 		margin-bottom: 30px;
-	}
-	.service-facts {
-		justify-content: center;
 	}
 	.third {
 		width: 423px;
