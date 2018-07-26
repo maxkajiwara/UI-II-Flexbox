@@ -121,8 +121,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 438;
-	padding-top: 190px;
+	width: 50%;
+	margin-top: 190px;
 	padding-left: 100px;
 }
 
@@ -197,7 +197,7 @@ address {
 
 /* Services-specific CSS*/
 
-.line-spacing p {
+.services p {
 	line-height: 1.2;
 }
 
@@ -210,13 +210,17 @@ h2 {
 	font-size: 26px;
 }
 
+.services header {
+	padding-bottom: 45px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
 .container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 45px;
-	padding-top: 40px;
-	border-top: 1px solid black;
+
 }
 
 .service-box {
@@ -260,6 +264,7 @@ h2 {
 
 .service-facts {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-top: 40px;
 	margin-bottom: 20px;
@@ -282,15 +287,47 @@ ul {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 550px) {
-  body {
+@media only screen and (max-width: 955px) {
+  /* body {
 		background-color: #F09A9D;
-	}
+	} */
 	.main {
 		margin: 0;
+		width: 100%;
 	}
 	 header, article, footer {
 		margin-right: 10px;
 		margin-left: 10px;
+	}
+	.navbar nav {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.snippet {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	header {
+		justify-content: center;
+	}
+	article {
+		justify-content: center;
+	}
+	.title-box {
+		width: 100%;
+		padding: 0;
+	}
+	.services-info-img {
+		align-self: stretch;
+	}
+	.container {
+		justify-content: center;
+	}
+	.service-facts div {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.service-facts {
+		justify-content: center;
 	}
 }
